@@ -49,7 +49,7 @@
             <p class="text-base sm:text-lg md:text-xl"> 
                 I am a <span class="text-[#42b883]"> Vue</span>.js developer specializing in the 
                 <span class="text-[#00B4FF]">Quasar</span> framework, creating dynamic and responsive web applications with a robust 
-                <span class="text-[#eb4432]">Laravel</span> backend but this portfolio is developed using <span class="text-[hsl(12,91%,62%)]">Svelte</span>, showcasing my eagerness to explore and master new technologies..
+                <span class="text-[#eb4432]">Laravel</span> backend but this portfolio is developed using <span class="text-[hsl(12,91%,62%)]">Svelte</span> and <span class="text-[#38bdf8]">Tailwind</span> CSS, showcasing my eagerness to explore and master new technologies..
             </p>
             <a class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 cursor-pointer" href="#" target="_blank">
                 <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200">

@@ -1,6 +1,17 @@
 <script>
+import {time} from '../stores'
+
     export let y;
     
+    const formatter = new Intl.DateTimeFormat('en', {
+        hour12: true,
+        hour: 'numeric',
+        minute: '2-digit',
+        second: '2-digit'
+    })
+
+    $: currentTime = formatter.format($time)
+
     $: showImage = y > 0
     let tabs = [
         {name: 'Projects', link:'#projects'},
@@ -19,8 +30,10 @@
             <b class="font-bold poppins  mr-1">Nil</b>  Lim
         </h1>
     </div>
+    {#if y === 0}
+    <div><i class="fa-regular fa-clock"></i> {currentTime}</div>
+    {/if}
 
-   
     <div class="sm:flex items-center gap-4 hidden">
         {#each tabs as tab, index}
             <a class="duration-200 hover:text-violet-400" href={tab.link}>

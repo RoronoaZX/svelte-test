@@ -1,5 +1,12 @@
-import {writable} from 'svelte/store'
 
-export const FeedbackStore = writable([
+import {readable} from 'svelte/store'
 
-])
+export const time = readable(new Date(), (set) => {
+    const interval = setInterval(() => {
+        set(new Date())
+    }, 1000)
+    return () => clearInterval(interval)
+})
+// export const FeedbackStore = writable([
+
+// ])

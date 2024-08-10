@@ -6,7 +6,7 @@
         <p><b class="pr-2">Email</b>nilgchurch712@gmail.com</p>
         <p><b class="pr-2">Github</b>
         <a class="text-violet-400" href="#" target="_blank">
-            https://github.com/RoronoaZX <sup><span class="text-xs scale-75 pl-0.5">
+            https://github.com/RoronoaZX/svelte-test <sup><span class="text-xs scale-75 pl-0.5">
                 <i class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"></i>
             </span></sup>
         </a></p>
